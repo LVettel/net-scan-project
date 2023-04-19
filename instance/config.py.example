@@ -1,0 +1,17 @@
+DATABASE_NAME = 'net_monitor'
+DATABASE_USER = 'net_monitor'
+DATABASE_PASSWORD = 'net_monitor'
+DATABASE_HOST = 'localhost'
+WMI_USER = 'btlab/administrator'
+WMI_PASSWORD = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+PORTS = [22,23,25,80,110,135,143,443,3389,5432,8080]
+NETS = ['172.16.2.0/24','172.16.0.0/24','172.16.3.0/24','172.16.5.0/24','172.16.7.0/24']
+LOG="scan.log"
+SMTP_HOST='vm-mail-02.corp.btlab.ru'
+SMTP_PORT=465
+SMTP_SSL=True
+SMTP_USER='temp@btlab.ru'
+SMTP_PASSWORD='XXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+SMTP_FROM='scan_host@btlab.ru'
+SMTP_TO='larin@btlab.ru'
+

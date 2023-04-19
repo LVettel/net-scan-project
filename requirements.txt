@@ -1,0 +1,5 @@
+flask>=2.0.1
+psycopg2>=2.8.6
+wmi-client-wrapper-py3>=2018.3
+icmplib>=2.1.1
+docopt>=0.6.2
